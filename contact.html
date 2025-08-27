@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Victor</title>
+    <!-- Connects your custom CSS file -->
+  <link rel="stylesheet" href="css/contact.css" />
+  <!-- Loads font awesome icons (for football, social media etc...) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  
+
+  <!-- top section with victor's name and navigation menu -->
+  <header>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <h1>Victor Milamulo Lukumbu ⚽</h1>
+
+    <!-- Navigation links to other pages (about, gallery, contact) -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="socialmedia.html">Social Media</a></li>
+        <li><a href="profile_card.html">Profile</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <p>Want to connect with Victor? Send a message below:</p>
+       
+        <!-- forms -->
+       <!-- Formspree form setup -->
+        
+        <form action="https://formspree.io/f/xkgzekao" method="POST">
+          <!-- Replace 'yourFormID' with your actual Formspree ID -->
+
+          <!-- Name input -->
+          <label for="name">Your Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <!-- Email input -->
+          <label for="email">Your Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <!-- Message textarea -->
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+          <!-- Submit button -->
+          <button type="submit">Send Message</button>
+        </form>
+         
+    </section>
+  </main>
+
+  
+  <footer>
+    <p>&copy; 2025 Victor Football. All rights reserved.</p>
+  </footer>
+
+  <!-- to insert the navigation into the humber -->
+  <script>
+    function toggleMenu() {
+      document.querySelector("nav ul").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>

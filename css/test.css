@@ -1,0 +1,21 @@
+header{
+    background-color: aqua;
+    
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    border-radius: 23px;
+    
+}
+table{
+    padding: 34px;
+}
+
+table td {
+    padding: 34px;
+    color: white;
+    background-color: forestgreen;
+    text-align: center;
+}

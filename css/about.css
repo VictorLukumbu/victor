@@ -1,0 +1,130 @@
+/* HOME PAGE */
+
+/* sets default font, background color, and text color */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* styles the top bar with a fark background and white text */
+  header  {
+    background-color: #1e3d59;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Remove bullet points and spaces, aligns nav items horizontal */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Styles the nav links white, bold, no underline */
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  
+  
+  /* Adds a background image, padding, and centers text in the hero section. */
+  .hero {
+    background-size: cover;
+    min-height: 400px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Styles the bio section with padding white background, and rounded corners */
+  .bio {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  /* STYLE SHEET ABOUT IMAGE BACKGROUND */
+  image-grid {
+    display: flex; /* turns the container into a flexbox allowing images to align horizontaly*/
+    gap: 20px; /* Adds space between each image*/
+    flex-wrap: wrap;/* allow image to wrap to the next line if the screen is too narrow*/
+    justify-content: center; /* Centers the images horizontally in the container*/
+  }
+  
+  image-grid img {
+    width: 300px; /* sets a fixed wigth for each image*/
+    height: auto; /* keeps the image's aspect ratio intact*/
+    border-radius: 10px; /* rounds the corners for a smooth modern look*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);/* adds a soft shadow for depth - makes image pop*/
+    transition: transform 0.3s ease; /* prepares the image for smooth animation when hovered.*/
+  }
+  
+  image-grid img:hover{
+    transform: scale(1.05); /* slightly enlarges the image when hoved _ adds interactivity and flair*/
+  }
+     
+   
+   /* ABOUT */
+
+
+
+   .about {
+    padding: 20px;
+    /* Adds space inside the section */
+  
+    background-color: #fff;
+    /* Sets background to white for clean look */
+  
+    margin: 20px;
+    /* Adds space around the section */
+    
+    border-radius: 8px;
+    /* Rounds the corners slightly for a soft design */
+  
+    max-width: 800px;
+    /* Limits the width so it doesn’t stretch too wide on large screens */
+  
+    margin-left: auto;
+    margin-right: auto;
+    /* Centers the section horizontally */
+  
+    line-height: 1.6;
+    /* Increases line spacing for better readability */
+  }
+  
+  .about h2,
+  .about h3 {
+    color: #333;
+    /* Sets headings to a dark blue for emphasis */
+  }
+
+
+  
+  .about blockquote {
+    font-style: italic;
+    /* Makes the quote text italic for style */
+  
+    color: #555;
+    /* Sets quote text to a medium gray */
+  
+    border-left: 4px solid #1e3d59;
+    /* Adds a vertical blue line to the left of the quote */
+  
+    padding-left: 10px;
+    /* Adds space between the quote text and the border */
+  
+    margin: 20px 0;
+    /* Adds space above and below the quote */
+  }
+

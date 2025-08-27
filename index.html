@@ -1,0 +1,95 @@
+<!-- Declare this is an HTML5 document -->
+<!DOCTYPE html>
+<!-- starts the HTML document and sets the language to English -->
+<html lang="en">
+<!-- contains metadata, links to stylesheets, and sets the page title. -->
+<head>
+    <!-- Ensures proper character encoding (so symbols and accents display corectly) -->
+  <meta charset="UTF-8" />
+  <!-- Make the site responsive on mobile devices. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Sets the browser tab title. -->
+  <title>Victor Milamulo Lukumbu | Official Website</title>
+  <!-- Connects your custom CSS file -->
+  <link rel="stylesheet" href="css/root.css" />
+ </head>
+
+<!-- Everything visible on the page lives here. -->
+<body>
+  <!-- top section with victor's name and navigation menu -->
+  <header>
+      <!-- HAMBURGER ICON: Top-left corner -->
+      <div class="hamburger" onclick="toggleMenu()">
+        ☰
+      </div>
+<!-- Add class 'hidden' to nav -->
+  <nav id="navMenu" class="hidden">
+    <ul>
+      <li><a href="#career">Career</a></li>
+      <li><a href="#stats">Stats</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+
+    <!-- Navigation links to other pages (about, gallery, contact) -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="socialmedia.html">Social Media</a></li>
+        <li><a href="profile_card.html">Profile</a></li>
+        
+      </ul>
+    </nav>
+   <h1>Victor Milamulo Lukumbu ⚽</h1>
+  </header>
+  
+  <!-- Background slider container -->
+  <div class="background-slider">
+    <div class="slide" style="background-image: url('images/homevic2.jpg');"></div>
+    <div class="slide" style="background-image: url('images/homevic.jpg');"></div>
+    <div class="slide" style="background-image: url('images/kindia.jpg');"></div>
+  </div>
+
+  
+
+
+
+
+  <!-- Main content area: hero section and player bio -->
+  <main>
+    <!-- Big intro section with a background image and welcome message -->
+    <section class="hero">
+      <h1>Welcome to Victor’s Official Page</h1>
+      <p>Follow the journey of a passionate footballer chasing greatness.</p>
+    </section>
+    <!-- Victor's basic player info -->
+    <section class="bio">
+      <h3>Player Bio</h3>
+      <p>Name: Victor<br>Position: Forward<br>Age: 23<br>Style: Fast, fearless, and focused.</p>
+    </section>
+
+    
+  </main>
+  
+  <!-- Bottom of the page with copyright -->
+  <footer>
+    <p>&copy; 2025 Victor Milamulo Lukumbu (Elisha) Football. All rights reserved.</p>
+  </footer>
+
+    <!-- loads my JavaScript file for interactivity -->
+    <script src="js/script.js"></script>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector("nav ul").classList.toggle("show");
+    }
+  </script>
+  
+</body>
+</html>

@@ -147,3 +147,22 @@ body {
     background-color: #16324a;
    }
 
+/* 🧠 Responsive message box styling */
+    #message {
+      width: 100%;               /* Full width on mobile */
+      min-height: 120px;         /* Taller box for typing */
+      padding: 12px;             /* Comfortable space inside */
+      font-size: 16px;           /* Readable text size */
+      border: 1px solid #ccc;    /* Soft border */
+      border-radius: 8px;        /* Rounded corners */
+      resize: vertical;          /* Allow vertical resizing */
+      box-sizing: border-box;    /* Prevent overflow issues */
+    }
+
+    /* 🧠 Optional: Responsive tweaks for small screens */
+    @media (max-width: 600px) {
+      #message {
+        min-height: 140px;
+        font-size: 18px;
+      }
+    }

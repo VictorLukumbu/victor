@@ -168,7 +168,7 @@ body {
     }
 
 /* Default: hide hamburger and nav menu */
-.hamburger {
+hamburger {
   display: none;
   font-size: 2rem;
   background: none;
@@ -203,3 +203,4 @@ body {
     display: flex;
   }
 }
+

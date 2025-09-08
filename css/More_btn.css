@@ -1,0 +1,71 @@
+/* Basic reset and font */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #333; /* Dark background */
+  overflow: hidden;
+}
+
+/* Navigation list */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Horizontal layout */
+}
+
+/* Navigation links */
+.nav-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Hover effect for links */
+.nav-list li a:hover {
+  background-color: #575757;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown button styling */
+.dropbtn {
+  cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+  background-color: #666;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

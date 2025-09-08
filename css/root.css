@@ -210,3 +210,14 @@ animation-delay: 10s;
     display: flex;
   }
 }
+
+.sub-menu{
+  display: none;
+  top: 3%;
+  position: relative;
+}
+
+.sub-menu ul{
+  position: absolute; 
+}
+

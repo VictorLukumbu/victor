@@ -6,7 +6,7 @@ body {
 
 /* Navbar container */
 .navbar {
-  background-color: #333, transparent;
+  background-color: #333;
   overflow: hidden;
 }
 
@@ -41,13 +41,13 @@ body {
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 6px; /* Space between text and arrow */
+  gap: 9px; /* Space between text and arrow */
 }
 
 /* Arrow styling */
 .arrow {
-  font-size: 0.9em;
-  transition: transform 0.3s ease;
+  font-size: 1.0em;
+  transition: transform 0.6s ease;
 }
 
 /* Rotate arrow when dropdown is active (optional) */

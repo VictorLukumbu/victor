@@ -46,8 +46,8 @@ body {
 
 /* Arrow styling */
 .arrow {
-  font-size: 12px;
-  transition: transform 0.6s ease;
+  font-size: 0.8em;
+  transition: transform 0.3s ease;
 }
 
 /* Rotate arrow when dropdown is active (optional) */

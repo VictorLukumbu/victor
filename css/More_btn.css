@@ -6,7 +6,7 @@ body {
 
 /* Navbar container */
 .navbar {
-  background-color: #333;
+  background-color: #333, transparent;
   overflow: hidden;
 }
 

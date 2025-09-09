@@ -46,7 +46,7 @@ body {
 
 /* Arrow styling */
 .arrow {
-  font-size: 0.11em;
+  font-size: 0.9em;
   transition: transform 0.3s ease;
 }
 

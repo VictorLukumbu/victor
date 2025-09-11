@@ -186,7 +186,7 @@ animation-delay: 10s;
 .nav-menu {
   display: none;
   flex-direction: column;
-  background-color: #333;
+  background-color: #1e3d59;
   padding: 10px;
 }
 
@@ -210,5 +210,6 @@ animation-delay: 10s;
     display: flex;
   }
 }
+
 
 

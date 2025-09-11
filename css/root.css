@@ -174,3 +174,52 @@ animation-delay: 10s;
 }
 
 
+/* Default: hide hamburger and nav menu */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-menu a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Mobile view: show hamburger */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+}
+
+.sub-menu{
+  display: none;
+  top: 3%;
+  position: relative;
+}
+
+.sub-menu ul{
+  position: absolute; 
+}
+
+
+

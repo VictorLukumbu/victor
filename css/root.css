@@ -10,32 +10,11 @@ body {
 }
 
 /* styles the top bar with a fark background and white text */
-/*header  {
+header  {
   
   color: white;
   padding: 20px;
-  text-align: center;
-}*/
-
-/* ============================
-   Header Styling with Logo
-============================= */
-
-/* Header container */
-.site-header {
-  display: flex;                  /* Aligns logo and title side by side */
-  justify-content: space-between;/* Pushes logo to the right, title to the left */
-  align-items: center;           /* Vertically centers both elements */
-  padding: 20px;
-  background-color: #1e3d59;     /* Dark background for contrast */
-  color: white;
-}
-
-/* Logo container */
-.logo-container img {
-  width: 100px;                  /* Adjust size as needed */
-  height: auto;                  /* Keeps aspect ratio */
-  border-radius: 8px;            /* Optional: rounds corners */
+  text-align: center; 
 }
 /* Remove bullet points and spaces, aligns nav items horizontal */
 nav ul {
@@ -253,6 +232,7 @@ animation-delay: 10s;
   font-weight: bold;
   text-align: center;
 }
+
 
 
 

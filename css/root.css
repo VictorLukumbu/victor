@@ -186,7 +186,7 @@ animation-delay: 10s;
 .nav-menu {
   display: none;
   flex-direction: column;
-  background-color: #1e3d59  transparent;
+  background-color: #1e3d59;
   padding: 10px;
 }
 
@@ -215,5 +215,7 @@ animation-delay: 10s;
 
 .career{
   color: white;
+  text-align: center;
 }
+
 

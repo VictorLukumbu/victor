@@ -22,7 +22,7 @@ body {
 .nav-list li a {
   display: block;
   color: white;
-  padding: 14px 20px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ body {
 .dropbtn {
   cursor: pointer;
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 8px; /* Space between text and arrow */
 }
 

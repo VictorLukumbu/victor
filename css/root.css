@@ -228,10 +228,13 @@ animation-delay: 10s;
 }
 
 
-.career a{
+.career h5 a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
   text-align: center;
-  color: white: 
 }
+
 
 
 

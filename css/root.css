@@ -229,9 +229,12 @@ animation-delay: 10s;
 
 
 .career{
-  color: white;
   text-align: center;
 }
-
+.career a{
+  color: white:
+  border: 3px;
+  
+}
 
 

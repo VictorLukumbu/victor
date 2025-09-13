@@ -16,14 +16,6 @@ body {
   padding: 20px;
   text-align: center;
 }*/
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #1e3d59;
-  color: white;
-}
 
 /* ============================
    Header Styling with Logo
@@ -261,6 +253,7 @@ animation-delay: 10s;
   font-weight: bold;
   text-align: center;
 }
+
 
 
 

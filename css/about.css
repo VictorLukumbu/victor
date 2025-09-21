@@ -5,13 +5,24 @@ body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    /* background-image: url(/images/dog.jpeg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
     color: #333;
   }
+
+
   
   /* styles the top bar with a fark background and white text */
   header  {
-    background-color: #1e3d59;
+    background-image: url(../images/stad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-color: #1e3d59; */
     color: white;
     padding: 20px;
     text-align: center;
@@ -33,34 +44,11 @@ body {
     font-weight: bold;
   }
 
-  
-  
-  /* Adds a background image, padding, and centers text in the hero section. */
-  .hero {
-    background-size: cover;
-    min-height: 400px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    padding: 100px 20px;
-    text-align: center;
-    color: white;
+  a:hover{
+    background-color: #8d959d;
+    
   }
-  
-  /* Styles the bio section with padding white background, and rounded corners */
-  .bio {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
-  }
-  
-  /* STYLE SHEET ABOUT IMAGE BACKGROUND */
-  image-grid {
-    display: flex; /* turns the container into a flexbox allowing images to align horizontaly*/
-    gap: 20px; /* Adds space between each image*/
-    flex-wrap: wrap;/* allow image to wrap to the next line if the screen is too narrow*/
-    justify-content: center; /* Centers the images horizontally in the container*/
-  }
+
   
   image-grid img {
     width: 300px; /* sets a fixed wigth for each image*/
@@ -69,10 +57,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 2);/* adds a soft shadow for depth - makes image pop*/
     transition: transform 0.3s ease; /* prepares the image for smooth animation when hovered.*/
   }
-  
-  image-grid img:hover{
-    transform: scale(1.05); /* slightly enlarges the image when hoved _ adds interactivity and flair*/
-  }
+
      
    
    /* ABOUT */
@@ -83,10 +68,11 @@ body {
     padding: 20px;
     /* Adds space inside the section */
   
-    background-color: #fff;
+    
     /* Sets background to white for clean look */
-  
-    margin: 20px;
+    
+
+    margin: 10px;
     /* Adds space around the section */
     
     border-radius: 8px;
@@ -95,8 +81,8 @@ body {
     max-width: 800px;
     /* Limits the width so it doesn’t stretch too wide on large screens */
   
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
+    
     /* Centers the section horizontally */
   
     line-height: 1.6;
@@ -124,7 +110,12 @@ body {
     padding-left: 10px;
     /* Adds space between the quote text and the border */
   
-    margin: 20px 0;
+    margin: 34px 0;
     /* Adds space above and below the quote */
   }
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
 

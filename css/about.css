@@ -80,7 +80,7 @@ body {
   
     max-width: 800px;
     /* Limits the width so it doesn’t stretch too wide on large screens */
-  
+    text-align: justify;
     margin-left: 20px;
     
     /* Centers the section horizontally */
@@ -118,4 +118,5 @@ p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
 }
+
 

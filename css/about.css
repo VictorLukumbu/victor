@@ -65,7 +65,7 @@ body {
 
 
    .about {
-    padding: 20px;
+    padding: 12px;
     /* Adds space inside the section */
   
     
@@ -78,10 +78,11 @@ body {
     border-radius: 8px;
     /* Rounds the corners slightly for a soft design */
   
+    text-align: justify;
     max-width: 800px;
     /* Limits the width so it doesn’t stretch too wide on large screens */
-    text-align: justify;
-    margin-left: 20px;
+  
+    margin-left: 100px;
     
     /* Centers the section horizontally */
   
@@ -118,5 +119,4 @@ p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
 }
-
 

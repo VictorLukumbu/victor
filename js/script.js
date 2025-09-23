@@ -6,10 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
-  // 🧠 Toggles the 'active' class to show/hide menu
-  function toggleMenu() {
-    document.querySelector(".nav-menu").classList.toggle("active");
-  }
+function toggleMenu() {
+  const sidebar = document.getElementById('sidebar');
+  sidebar.classList.toggle('active');
+}
+
 // ============================
 // Toggle Navigation Menu
 // ============================
@@ -23,4 +24,3 @@ hamburger.addEventListener('click', () => {
   // Toggle the 'active' class on nav menu
   navMenu.classList.toggle('active');
 });
-

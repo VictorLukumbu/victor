@@ -7,7 +7,7 @@ body {
   
   /* Navbar container */
   .navbar {
-    background-color: #333;
+    background-color: #000000;
     overflow: hidden;
   }
   
@@ -60,7 +60,7 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #444;
+    background-color: #211b1b;
     min-width: 100px;
     z-index: 1;
   }

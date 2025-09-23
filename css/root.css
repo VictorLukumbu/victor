@@ -21,6 +21,7 @@ body {
     color: white;
     padding: 20px;
     text-align: center; 
+    background-color: black;
   }
   /* Remove bullet points and spaces, aligns nav items horizontal */
   nav ul {
@@ -125,14 +126,65 @@ body {
   30%  { opacity: 1; }  /* Stay visible for a moment */
   40%  { opacity: 0; }  /* Begin fading out */
   100% { opacity: 0; }  /* End invisible */
-  
-  
-  
-  
-  
-  
-  
+}
+
   
   
 
+
+/* ============================
+   Navigation Links Styling
+============================= */
+.nav-menu a {
+  color: white;             /* White text for readability on dark background */
+  padding: 10px;            /* Adds spacing around each link for touch targets */
+  text-decoration: none;    /* Removes underline for a cleaner look */
+}
+  
+  
+  /* Mobile view: show hamburger icon when screen width is 768px or less
+  @media (max-width: 768px) { */
+  
+    /* Target the hamburger menu icon */
+    .hamburger {
+      
+      display: block; 
+      /* Makes the hamburger icon visible on mobile devices */
+  
+      position: absolute; 
+      /* Positions the icon relative to the nearest positioned ancestor or the viewport */
+  
+      top: 10px; 
+      /* Places the icon 10 pixels from the top of the screen */
+  
+      left: 10px; 
+      /* Places the icon 10 pixels from the left side of the screen */
+  
+      z-index: 1000; 
+      /* Ensures the icon stays on top of other elements for easy access */
+    }
+  
+  
+  
+    .nav-menu.active {
+      display: flex;
+    }
+
+  
+  
+  .career h5{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
   

@@ -12,7 +12,7 @@ body {
 ============================= */
 header {
   position: relative;
-  background-color: #07090b;
+  /* background-color: #07090b; */
   padding: 10px;
 }
 
@@ -35,7 +35,7 @@ header {
 ============================= */
 .nav-menu {
   display: flex;              /* Horizontal layout by default */
-  justify-content: flex-end; /* Align links to the right */
+  justify-content: center; /* Align links to the center */
   gap: 20px;                  /* Space between links */
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 .nav-menu a:hover {
-  background-color: #1e3d59;  /* Hover effect for links */
+  background-color: #29333d;  /* Hover effect for links */
 }
 
 /* ============================
@@ -77,4 +77,4 @@ header {
   .nav-menu a {
     text-align: left;         /* Align text to the left */
   }
-      }
+}

@@ -165,6 +165,10 @@ body {
     }
   
   
+/* Optional: Add transition for smooth icon change */
+.hamburger:focus {
+  outline: none;
+}
   
     .nav-menu.active {
       display: flex;
@@ -189,3 +193,4 @@ body {
   
 
   
+

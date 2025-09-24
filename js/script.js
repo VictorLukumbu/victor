@@ -26,7 +26,7 @@ hamburger.addEventListener('click', () => {
 
 });
 
- 3. JavaScript — Toggle Icon + Close on Outside Click
+ //3. JavaScript — Toggle Icon + Close on Outside Click
 
 
 // ============================
@@ -59,3 +59,4 @@ document.addEventListener('click', (event) => {
   }
 });
 `
+

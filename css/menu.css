@@ -39,6 +39,8 @@ header {
   gap: 20px;                  /* Space between links */
 }
 
+
+
 .nav-menu a {
   color: white;
   text-decoration: none;
@@ -49,6 +51,8 @@ header {
 .nav-menu a:hover {
   background-color: #29333d;  /* Hover effect for links */
 }
+
+
 
 /* ============================
    Mobile View Styles

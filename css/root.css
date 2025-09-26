@@ -21,7 +21,7 @@ body {
     color: white;
     padding: 20px;
     text-align: center; 
-    
+    background-color: black;
   }
   /* Remove bullet points and spaces, aligns nav items horizontal */
   nav ul {
@@ -165,10 +165,6 @@ body {
     }
   
   
-/* Optional: Add transition for smooth icon change */
-.hamburger:focus {
-  outline: none;
-}
   
     .nav-menu.active {
       display: flex;
@@ -191,6 +187,4 @@ body {
   
   
   
-
   
-

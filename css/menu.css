@@ -30,10 +30,6 @@ header {
   z-index: 1000;
 }
 
-/* Optional: Add transition for smooth icon change */
-.hamburger:focus {
-  outline: none;
-}
 /* ============================
    Navigation Menu Styles
 ============================= */
@@ -81,5 +77,4 @@ header {
   .nav-menu a {
     text-align: left;         /* Align text to the left */
   }
-
 }

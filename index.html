@@ -12,48 +12,67 @@
   <title>Victor Milamulo Lukumbu | Official Website</title>
   <!-- Connects your custom CSS file -->
   <link rel="stylesheet" href="css/root.css" />
+  <link rel="stylesheet" href="css/More_btn.css" />
+  <link rel="stylesheet" href="css/menu.css">
+    
  </head>
 
 <!-- Everything visible on the page lives here. -->
 <body>
   <!-- top section with victor's name and navigation menu -->
   <header>
-      <!-- HAMBURGER ICON: Top-left corner -->
-      <div class="hamburger" onclick="toggleMenu()">
-        ☰
-      </div>
-<!-- Add class 'hidden' to nav -->
-  <nav id="navMenu" class="hidden">
-    <ul>
-      <li><a href="#career">Career</a></li>
-      <li><a href="#stats">Stats</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+      <!-- Top Header Section -->
+<header>
+  <!-- ============================
+     Responsive Navigation Bar
+     ============================ -->
+
+  <!-- Hamburger icon for mobile view -->
+  <button class="hamburger" id="hamburger">
+    &#9776; <!-- Unicode for ☰ -->
+  </button>
+
+  <!-- Navigation links container -->
+  <nav class="nav-menu" id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="social.html">Social Media</a>
+    <a href="profile_card.html">Profile</a>
+    <a href="career-highlights.html">Career</a>
+  
   </nav>
 
-     
 
     <!-- Navigation links to other pages (about, gallery, contact) -->
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="socialmedia.html">Social Media</a></li>
-        <li><a href="profile_card.html">Profile</a></li>
-        
-      </ul>
-    </nav>
-   <h1>Victor Milamulo Lukumbu ⚽</h1>
+   
+
+
+            <!-- "More" dropdown menu -->
+            <li class="dropdown">
+            <a href="#more" class="dropbtn">More<span class="arrow">&#9662;</span>
+            </a> <!-- Main "More" button -->
+            <div class="dropdown-content">
+            <a href="gallery.html">Gallery</a> <!-- Sub-link under More -->
+            <a href="contact.html">Contact</a> <!-- Sub-link under More -->
+            <a href="socialmedia.html">Media</a> <!-- Sub-link under More -->
+            <a href="profile_card.html">Profile</a>
+            </div>
+            </li>
+       </ul>
+            
+   </nav>
+   <h1 class="title">Victor Milamulo Lukumbu ⚽</h1>
   </header>
   
   <!-- Background slider container -->
   <div class="background-slider">
     <div class="slide" style="background-image: url('images/homevic2.jpg');"></div>
     <div class="slide" style="background-image: url('images/homevic.jpg');"></div>
-    <div class="slide" style="background-image: url('images/kindia.jpg');"></div>
+    <div class="slide" style="background-image: url('images/st.webp');"></div>
   </div>
 
   
@@ -65,9 +84,11 @@
   <main>
     <!-- Big intro section with a background image and welcome message -->
     <section class="hero">
-      <h1>Welcome to Victor’s Official Page</h1>
+      <h1 class="welcome">Welcome to Victor’s Official Website</h1>
       <p>Follow the journey of a passionate footballer chasing greatness.</p>
     </section>
+
+     
     <!-- Victor's basic player info -->
     <section class="bio">
       <h3>Player Bio</h3>
@@ -85,11 +106,31 @@
     <!-- loads my JavaScript file for interactivity -->
     <script src="js/script.js"></script>
 
-  <script>
-    function toggleMenu() {
-      document.querySelector("nav ul").classList.toggle("show");
-    }
+<script>
+  // 🧠 Toggles the 'active' class to show/hide menu
+  function toggleMenu() {
+    document.querySelector(".nav-menu").classList.toggle("active");
+  }
   </script>
 
+    
+  
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

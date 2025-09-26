@@ -1,0 +1,104 @@
+*{
+    color: #fff;
+    margin: 4px;
+}
+
+header{
+    height: auto;
+    ;
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/eldo\ vs\ seleka\ lineup.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    
+    
+}
+
+header nav ul {
+    display: flex;
+
+    top: 50%;
+    text-align: center;
+}
+
+ul{
+    float: left;;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+
+ul ol{
+    display: inline-block;
+}
+
+ul ol a{
+    text-decoration:  none;
+    color: #fff;
+    padding: auto;
+    border: 2px solid transparent;
+    transition: 0.5 ease;
+    
+
+}
+
+/* ea    */
+ul ol a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul ol.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+/* 
+.title, .button{
+    justify-content: center;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    
+} */
+
+.title{
+
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    
+}
+
+.title h1{
+    color: #fff;
+    font-size: 50px;
+    
+    
+}
+.button{
+    
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    
+    
+}
+
+
+

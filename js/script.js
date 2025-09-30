@@ -11,6 +11,11 @@ function toggleMenu() {
   sidebar.classList.toggle('active');
 }
 
+// 🧠 Toggles the 'active' class to show/hide menu
+function toggleMenu() {
+  document.querySelector(".nav-menu").classList.toggle("active");
+}
+
 // ============================
 // Toggle Navigation Menu
 // ============================

@@ -119,19 +119,20 @@ p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
 }
-.display-img{
-  height: 300px;
+
+
+
+.about-img {
+  float: left; /* This means the image must be on the left side of the text*/
+  width: 200px; /*Then he is all about the size of the image in the page*/
+  height: auto; /* Okay as we can see this is also about the size but here is set to auto*/
+  margin: 0 20px 20px 0; /* top-right-bottom-left spacing */
+  border-radius: 8px; /* This setup will make all the corners of the peak a little bit round */
 }
 
-.pic-aca{
-  width: 200px;
-  height: px;
+.about-block {
+  overflow: hidden; /* ensures container wraps around floated image */
+  margin-bottom: 40px;
+  line-height: 1.6;
 }
 
-.fun{
-  height: 200px;
-}
-
-.ac-bench{
-  height: 200px;
-}

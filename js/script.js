@@ -29,3 +29,19 @@ hamburger.addEventListener('click', () => {
   // Toggle the 'active' class on nav menu
   navMenu.classList.toggle('active');
 });
+
+ 
+
+
+// Opens the lightbox and sets the image source
+function openLightbox(imgElement) {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  lightboxImg.src = imgElement.src;
+  lightbox.style.display = 'flex'; // Show the lightbox
+}
+
+// Closes the lightbox when clicked
+document.getElementById('lightbox').addEventListener('click', function () {
+  this.style.display = 'none';
+});

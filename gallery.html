@@ -13,6 +13,9 @@
   <!-- Sets the browser tab title -->
 
   <link rel="stylesheet" href="css/gallery.css" />
+  <link rel="stylesheet" href="css/menu-gal.css">
+
+ 
   <!-- Links to the external CSS file for styling -->
 </head>
 <body>
@@ -24,18 +27,29 @@
     <h1>Victor Milamulo Lukumbu</h1>
     <p>Gallery of Victor’s football journey</p>
 
-    <!-- Navigation links to other pages (about, gallery, contact) -->
-    <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="socialmedia.html">Media</a></li>
-          <li><a href="profile_card.html">Profile</a></li>
-          
-        </ul>
-      </nav>
+    <!-- ============================
+     Responsive Navigation Bar
+     ============================ -->
+
+  <!-- Hamburger icon for mobile view -->
+  <button class="hamburger" id="hamburger">
+    &#9776; <!-- Unicode for ☰ -->
+  </button>
+
+  <!-- Navigation links container -->
+  <nav class="nav-menu" id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="socialmedia.html">Social Media</a>
+    <a href="profile_card.html">Profile</a>
+    <a href="career-highlights.html">Career</a>
+    <a href="#transfer">Transfer</a>
+
+  
+  </nav>
+
   </header>
 
   <main>
@@ -124,19 +138,6 @@
     <p>&copy; 2025 Victor Milamulo Lukumbu. All rights reserved.</p>
   </footer>
   
-  <script>
-    // Opens the lightbox and sets the image source
-    function openLightbox(imgElement) {
-      const lightbox = document.getElementById('lightbox');
-      const lightboxImg = document.getElementById('lightbox-img');
-      lightboxImg.src = imgElement.src;
-      lightbox.style.display = 'flex'; // Show the lightbox
-    }
-  
-    // Closes the lightbox when clicked
-    document.getElementById('lightbox').addEventListener('click', function () {
-      this.style.display = 'none';
-    });
-  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>

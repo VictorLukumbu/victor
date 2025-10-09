@@ -7,6 +7,7 @@
 
   <!-- Connects your custom CSS file -->
   <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/menu-contact.css">
 
   <!-- Loads font awesome icons (for football, social media etc...) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -17,22 +18,32 @@
 
   <!-- 🧠 Header with Victor's name and navigation menu -->
   <header>
-    <!-- Hamburger Toggle Button (visible only on mobile) -->
-     <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <button class="hamburger" id="hamburger">
+      &#9776;
+    </button>
 
-<!-- Navigation Menu -->
-    <nav id="mobileMenu" class="nav-menu">
-         <a href="index.html">Home</a>
-         <a href="about.html">About</a>
-          <a href="gallery.html">Gallery</a>
-          <a href="contact.html">Contact</a>
-          <a href="social.html">Social Media</a>
-          <a href="profile_card.html">Profile</a>
+    <Nav class="nav-menu" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="socialmedia.html">Social Media</a>
+      <a href="profile_card.html">Profile</a>
+      <a href="career-highlights.html">Career</a>
+      <a href="#transfer">Transfer</a>
+  
+  
+      
+      
+    
     </nav>
+
+
     <h1>Contact 📞 Victor</h1>
 
     <!-- 🧠 Navigation links to other pages -->
-    <nav>
+    <nav class="Home">
       <ul>
         <li><a href="index.html">Home</a></li>
         
@@ -73,12 +84,7 @@
   </footer>
 
   
-  <script>
-  // 🧠 Toggles the 'active' class to show/hide menu
-  function toggleMenu() {
-    document.querySelector(".nav-menu").classList.toggle("active");
-  }
-  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>
 

@@ -1,17 +1,17 @@
 /* HOME PAGE */
 
 /* sets default font, background color, and text color */
-body {
+/* body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #120f18;
     color: #333;
-  }
+  } */
   
   /* styles the top bar with a fark background and white text */
   header  {
-    background-color: #1e3d59;
+    background-color: #000000;
     color: white;
     padding: 20px;
     text-align: center;
@@ -83,7 +83,7 @@ body {
       font-family: 'Segoe UI', sans-serif; /* Sets a clean, modern font */
       margin: 0;                           /* Removes default margin */
       padding: 0;                          /* Removes default padding */
-      background-color: #f4f4f4;           /* Light gray background */
+      background-color: #c33e3e;           /* Light gray background */
       color: #333;                         /* Dark gray text color */
     }
     
@@ -102,7 +102,7 @@ body {
     ============================= */
     .gallery {
       padding: 20px;                       /* Space inside gallery section */
-      background-color: #fff;              /* White background */
+      background-color: #000000;              /* White background */
       margin: 20px auto;                   /* Space around and center horizontally */
       border-radius: 8px;                  /* Rounded corners */
       max-width: 1000px;                   /* Limits width on large screens */

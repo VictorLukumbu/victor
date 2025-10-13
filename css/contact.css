@@ -149,7 +149,7 @@ body {
 
 /* 🧠 Responsive message box styling */
     #message {
-      width: 100%;               /* Full width on mobile */
+      width: 50%;               /* Full width on mobile */
       min-height: 120px;         /* Taller box for typing */
       padding: 12px;             /* Comfortable space inside */
       font-size: 16px;           /* Readable text size */
@@ -166,28 +166,3 @@ body {
         font-size: 18px;
       }
     }
-
-/* Default: hide hamburger and nav menu */
-.hamburger {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.nav-menu {
-  display: none;
-  flex-direction: column;
-  background-color: #333;
-  padding: 10px;
-}
-
-.nav-menu a {
-  color: white;
-  padding: 10px;
-  text-decoration: none;
-}
-
-
-

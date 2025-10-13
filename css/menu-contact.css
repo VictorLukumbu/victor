@@ -1,4 +1,5 @@
-/* ============================
+
+  /* ============================
    Base Styles
 ============================= */
 body {
@@ -22,7 +23,7 @@ body {
     font-size: 2rem;            /* Large icon size */
     background: none;           /* No background */
     border: none;               /* No border */
-    color: white;               /* White icon for contrast */
+    color: rgb(245, 242, 242);               /* White icon for contrast */
     cursor: pointer;            /* Pointer cursor on hover */
     position: absolute;
     top: 10px;
@@ -44,6 +45,7 @@ body {
   .nav-menu a {
     color: white;
     text-decoration: none;
+    
     padding: 10px;
     transition: background 0.3s ease;
   }
@@ -68,7 +70,7 @@ body {
       position: absolute;
       top: 50px;                /* Position below hamburger */
       left: 10px;
-      background-color: #07090b;
+      background-color: #1e3d59;
       padding: 10px;
       border-radius: 8px;
       z-index: 999;

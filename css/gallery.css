@@ -1,91 +1,4 @@
-/* HOME PAGE */
 
-/* sets default font, background color, and text color */
-/* body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #120f18;
-    color: #333;
-  } */
-  
-  /* styles the top bar with a fark background and white text */
-  header  {
-    background-color: #000000;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Remove bullet points and spaces, aligns nav items horizontal */
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  /* Styles the nav links white, bold, no underline */
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  /* Adds a background image, padding, and centers text in the hero section. */
-  .hero {
-    background-size: cover;
-    min-height: 400px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    padding: 100px 20px;
-    text-align: center;
-    color: white;
-  }
-  
-  /* Styles the bio section with padding white background, and rounded corners */
-  .bio {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
-  }
-  
-  /* STYLE SHEET ABOUT IMAGE BACKGROUND */
-  image-grid {
-    display: flex; /* turns the container into a flexbox allowing images to align horizontaly*/
-    gap: 20px; /* Adds space between each image*/
-    flex-wrap: wrap;/* allow image to wrap to the next line if the screen is too narrow*/
-    justify-content: center; /* Centers the images horizontally in the container*/
-  }
-  
-  image-grid img {
-    width: 300px; /* sets a fixed wigth for each image*/
-    height: auto; /* keeps the image's aspect ratio intact*/
-    border-radius: 10px; /* rounds the corners for a smooth modern look*/
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);/* adds a soft shadow for depth - makes image pop*/
-    transition: transform 0.3s ease; /* prepares the image for smooth animation when hovered.*/
-  }
-  
-  image-grid img:hover{
-    transform: scale(1.05); /* slightly enlarges the image when hoved _ adds interactivity and flair*/
-  }
-     
-  
-  
-  /* GALLERY */
-  
-  /* ============================
-     General Page Styling
-  ============================= */
-  body {
-      font-family: 'Segoe UI', sans-serif; /* Sets a clean, modern font */
-      margin: 0;                           /* Removes default margin */
-      padding: 0;                          /* Removes default padding */
-      background-color: #c33e3e;           /* Light gray background */
-      color: #333;                         /* Dark gray text color */
-    }
     
     /* ============================
        Header Styling
@@ -102,7 +15,7 @@
     ============================= */
     .gallery {
       padding: 20px;                       /* Space inside gallery section */
-      background-color: #000000;              /* White background */
+                  /* White background */
       margin: 20px auto;                   /* Space around and center horizontally */
       border-radius: 8px;                  /* Rounded corners */
       max-width: 1000px;                   /* Limits width on large screens */

@@ -1,47 +1,38 @@
-// Here document.addEventListener will wait until the page is fully loaded before 
-// running code.
-// And console.log will log a message to the browser console (for testing/debugging) 
+// Wait until the page is fully loaded before running any code
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("Victor’s site is live and kicking!");
+  console.log("Victor’s site is live and kicking!");
+
+  // ============================
+  // Toggle Navigation Menu + Animate Hamburger
+  // ============================
+
+  // Get hamburger and nav menu elements
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('navMenu');
+
+  // Add click event to hamburger icon
+  hamburger.addEventListener('click', () => {
+    // Toggle the 'active' class on nav menu to show/hide it
+    navMenu.classList.toggle('active');
+
+    // Toggle the 'active' class on hamburger to animate into X
+    hamburger.classList.toggle('active');
   });
 
+  // ============================
+  // Lightbox Functionality
+  // ============================
 
-function toggleMenu() {
-  const sidebar = document.getElementById('sidebar');
-  sidebar.classList.toggle('active');
-}
+  // Opens the lightbox and sets the image source
+  window.openLightbox = function(imgElement) {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    lightboxImg.src = imgElement.src;
+    lightbox.style.display = 'flex'; // Show the lightbox
+  };
 
-// 🧠 Toggles the 'active' class to show/hide menu
-function toggleMenu() {
-  document.querySelector(".nav-menu").classList.toggle("active");
-}
-
-// ============================
-// Toggle Navigation Menu
-// ============================
-
-// Get hamburger and nav menu elements
-const hamburger = document.getElementById('hamburger');
-const navMenu = document.getElementById('navMenu');
-
-// Add click event to hamburger icon
-hamburger.addEventListener('click', () => {
-  // Toggle the 'active' class on nav menu
-  navMenu.classList.toggle('active');
-});
-
- 
-
-
-// Opens the lightbox and sets the image source
-function openLightbox(imgElement) {
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-  lightboxImg.src = imgElement.src;
-  lightbox.style.display = 'flex'; // Show the lightbox
-}
-
-// Closes the lightbox when clicked
-document.getElementById('lightbox').addEventListener('click', function () {
-  this.style.display = 'none';
+  // Closes the lightbox when clicked
+  document.getElementById('lightbox').addEventListener('click', function () {
+    this.style.display = 'none';
+  });
 });

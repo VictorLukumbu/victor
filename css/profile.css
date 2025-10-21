@@ -4,6 +4,7 @@
    Container: Overall Card Styling
    ================================ */
    .player-card {
+    background-image: url(/images/1755604271885.jpg);
     background-color: #f0f0f0;         /* Light background for contrast */
     border-radius: 12px;               /* Rounded corners for soft look */
     padding: 1.5em;                    /* Inner spacing */
@@ -12,6 +13,14 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Subtle shadow for depth */
     text-align: center;               /* Center-align text and content */
     font-family: 'Segoe UI', sans-serif; /* Clean, modern font */
+  }
+  
+  body{
+    background-image: url(/images/new/20250924_143716.png);
+    background-position: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   
   /* ================================
@@ -40,6 +49,7 @@
   }
   
   .pos {
+   
     background-color: #f1ecec;          /* Dark background */
     color: #161515;                     /* White text */
     padding: 0.3em 0.6em;            /* Inner spacing */
@@ -115,56 +125,25 @@
 }
 
 
-  /* ================================
-   Career Timeline Table Styling
-   ================================ */
-   .career-section {
-    padding: 2em;
-    background-color: #f9f9f9;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 800px;
-    margin: 2em auto;
-  }
+ p{
+  background-color: #443a3a;
+  color: #fff;
+  text-align: center;
+  font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ p a{
+  text-decoration: none;
+  color: red;
+  font-size: 12px;
   
-  .career-section h2 {
-    text-align: center;
-    margin-bottom: 1em;
-    font-size: 1.6em;
-    color: #333;
-  }
-  
-  /* Table Layout */
-  .career-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: 'Segoe UI', sans-serif;
-  }
-  
-  .career-table th,
-  .career-table td {
-    border: 1px solid #ccc;
-    padding: 0.75em;
-    text-align: left;
-    font-size: 1em;
-  }
-  
-  .career-table th {
-    background-color: #444;
-    color: #fff;
-  }
-  
-  .career-table td {
-    background-color: #fff;
-    color: #333;
-  }
-  
-  /* Responsive Table */
-  @media (max-width: 600px) {
-    .career-table th,
-    .career-table td {
-      font-size: 0.9em;
-      padding: 0.5em;
-    }
-  }
-  
+ }
+
+p a:hover{
+  color: white;
+}
+
+p a:active{
+  background-color: aqua;
+}

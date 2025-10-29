@@ -1,0 +1,42 @@
+/* The main style for the switch button dark and light */
+#btn {
+    /* Position must be fixed to the page scrolling or not the button will be visible */
+    position: fixed;
+    /* the button must be on the top right of the page */
+    right: 20px;
+    /* get rid of the background */
+    background: none;
+    /* space inside the button */
+    padding: 5px;
+    /* Get rid of the border */
+    border: none;
+    /* control the size of the button */
+    font-size: 1.2rem;
+    /* here the cursor change to a pointer when hover */
+    cursor: pointer;
+
+    transition: all 0.4s ease;
+    
+}
+
+/* style the button */
+body.sun #btn{
+    background-color: #333;
+    color: #fff;
+}
+
+/* when the dark mode is added to the body */
+body.sun{
+    background-color: #333;
+    color: #fff;
+}
+body.sun header,
+body.sun main,
+body.sun section .gallery,
+body.sun section h2,
+body.sun div .image-grid,
+body.sun figcaption,
+body.sun footer{
+    color: #fff;
+}
+

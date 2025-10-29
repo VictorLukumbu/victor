@@ -1,0 +1,62 @@
+
+/* the toggle button switch style */
+
+#moon{
+    /* Here i don't need the button to move even if i scroll */
+    position: fixed;
+    /* now place the button to the right side of the contact page */
+    right: 20px;
+    /* removing the background color of the button */
+    background: none;
+    /* controling the size of the button by pixels */
+    font-size: 1.2rem;
+
+    /* getting of the border */
+    border: none;
+
+    /* specifies the */
+    z-index: 1000;
+
+    /* this is the transition on how the button will appears on the page after loaded */
+    transition: all 0.6s ease;
+
+    /* the cursor change to a pointer when clicking or hover */
+    cursor: pointer;
+
+
+
+    
+}
+
+/* Style for button */
+body.icon #moon{
+    background-color: #333;
+    color: #fff;
+}
+
+/* here is whe */
+
+body.icon{
+    background-color: #333;
+    color: #fff;
+}
+
+body.icon header .nav-menu,
+body.icon header h1,
+body.icon header nav .Home,
+body.icon section .contact,
+body.icon section h2,
+body.icon section p,
+body.icon section label,
+body.icon section input,
+body.icon section textarea,
+body.icon section form,
+body.icon section button,
+body.icon footer{
+    color: #fff;
+}
+
+
+
+
+

@@ -1,0 +1,51 @@
+/* Theme Toggle Button Styles */
+#themeToggle{
+    position: fixed; /* Stays in place while scrolling */
+    top: 20px;    /* Distance from top */
+    background-color: #fff; /*  */
+    color: #333;/*  */
+    right: 20px;    /* insert the button on the right side */
+    border: none;    /*  */
+    padding: 10px 15px;     /* Space inside the button */
+    border-radius: 58px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: all 0.3s ease;
+
+
+}
+
+/* Dark mode styles for button */
+body.dark-mode #themToggle{
+    background-color: #333;
+    color: #fff;
+}
+
+/* **************
+dark mode styles 
+******************/
+
+/* What it does?
+changes background and text colors when darkmode is added to the body */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+body.dark-mode header h1,
+body.dark-mode header p ,
+body.dark-mode .blog-post h2,
+body.dark-mode .blog-post .detail,
+body.dark-mode .blog-post .date,
+body.dark-mode .blog-post a,
+body.dark-mode footer {
+    color: #f0f0f0;
+
+}
+
+body.dark-mode .blog-post{
+    background-color: #2a2a2a;
+    border-left-color: #0cf;
+}

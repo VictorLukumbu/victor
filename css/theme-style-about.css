@@ -1,0 +1,52 @@
+
+
+/* Theme toggle button style id */
+#theme{
+
+    position: fixed;    /* this means the button must stay on place */
+    top: 20px;/* this is the distance from the top */
+    /* put the button on the right side */
+    right: 20px;
+    /* the curser must change into a pointer when hover */
+    cursor: pointer;
+    /* no need the border on our button */
+    border: none;
+    /* This is the space inside the button */
+    padding: 4px 10px;
+    /* this will round the corner of the button */
+    border-radius: 40px;
+    background-color: #333;
+    /* the font or the size of the icon increase or decrease */
+    font-size: 1.2rem;
+    /* specifie the stack level of the box*/
+    z-index: 1000;
+
+    /* this controls how the button will appears in the page */
+    transition: all 0.4s ease;
+
+    
+
+}
+
+body.dark #theme{
+    background-color: #333;
+    color: #fff;
+}
+
+/* dark style */
+
+body.dark {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+body.dark .about h2, 
+body.dark p,
+body.dark p .p1,
+body.dark .about-block h3,
+body.dark .about-text,
+body.dark h3,
+body.dark blockquote,
+body.dark footer{
+    color: #fff;
+}

@@ -17,7 +17,7 @@ body {
   
   /* styles the top bar with a fark background and white text */
   header  {
-    background-image: url(../images/stad.jpg);
+    background-image: url(../images/st.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

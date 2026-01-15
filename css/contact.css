@@ -4,6 +4,7 @@
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
+    margin-left: 34px;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
@@ -51,6 +52,8 @@ body {
     gap: 20px;
   }
   
+  
+
   /* Styles the nav links white, bold, no underline */
   nav a {
     color: white;
@@ -58,45 +61,8 @@ body {
     font-weight: bold;
   }
   
-  /* Adds a background image, padding, and centers text in the hero section. */
-  .hero {
-    background-size: cover;
-    min-height: 400px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    padding: 100px 20px;
-    text-align: center;
-    color: white;
-  }
-  
-  /* Styles the bio section with padding white background, and rounded corners */
-  .bio {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
-  }
-  
-  /* STYLE SHEET ABOUT IMAGE BACKGROUND */
-  image-grid {
-    display: flex; /* turns the container into a flexbox allowing images to align horizontaly*/
-    gap: 20px; /* Adds space between each image*/
-    flex-wrap: wrap;/* allow image to wrap to the next line if the screen is too narrow*/
-    justify-content: center; /* Centers the images horizontally in the container*/
-  }
-  
-  image-grid img {
-    width: 300px; /* sets a fixed wigth for each image*/
-    height: auto; /* keeps the image's aspect ratio intact*/
-    border-radius: 10px; /* rounds the corners for a smooth modern look*/
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);/* adds a soft shadow for depth - makes image pop*/
-    transition: transform 0.3s ease; /* prepares the image for smooth animation when hovered.*/
-  }
-  
-  image-grid img:hover{
-    transform: scale(1.05); /* slightly enlarges the image when hoved _ adds interactivity and flair*/
-  }
-  
+
+
 
 /* CONTACT  */
 
@@ -108,7 +74,7 @@ body {
     margin: 20px;
     border-radius: 8px;
     max-width: 300px;
-    margin-left: auto;
+    margin-left: 345px;
     margin-right: auto;
   }
 
@@ -166,3 +132,15 @@ body {
         font-size: 18px;
       }
     }
+
+p a{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  
+  font-family: 'Courier New', Courier, monospace;
+
+}
+p a:hover{
+  background-color: gray;
+}

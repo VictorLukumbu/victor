@@ -19,6 +19,16 @@ document.addEventListener("DOMContentLoaded", () => {
     hamburger.classList.toggle('active');
   });
 
+  document.addEventListener('click', (event) => {
+    const isClickInsideMenu = navMenu.contains(event.target);
+    const isClickOnHamburger = hamburger.contains(event.target);
+
+    if (!isClickInsideMenu && !isClickOnHamburger) {
+        navMenu.classList.remove('active');
+        hamburger.classList.remove('active');
+    }
+});
+
   // ============================
   // Lightbox Functionality
   // ============================
